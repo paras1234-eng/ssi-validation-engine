@@ -3,6 +3,16 @@
  **What this project does:**  
 This project reads trade data and Standing Settlement Instructions (SSIs), validates them for missing or incorrect records, and outputs a clean report showing any mismatches or format issues.
 
+This is my first Python + SQL automation project.
+
+It is designed to show:
+How trade and SSI data can be read, validated, and reported
+How Python and SQL can be used together to automate real-world data checks
+A basic simulation of how actual securities operations handle instruction mismatches
+
+Clone-and-run tested:
+This project has been tested by cloning the repository and running all scripts in sequence from a clean environment. Employers can reproduce the results by running the scripts in the listed order, no additional setup required.
+
 ---
 
 ##  Technologies Used
