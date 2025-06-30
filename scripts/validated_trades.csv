@@ -1,0 +1,4 @@
+TradeID,Security,Amount,SSI,Valid_SSI_Format
+T1,IBM,1000,CITIUS33XXX,True
+T2,AAPL,2000,BOFAUS3NXXX,True
+T3     ,TSLA     ,3000,,False
