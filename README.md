@@ -32,6 +32,16 @@ python scripts/save_validated_to_db.py
 python scripts/query_invalid_ssis.py
 ---
 
+----
+How to Test the Output
+
+python scripts/query_invalid_ssis.py
+
+  TradeID   Security  Amount   SSI  Valid_SSI_Format
+0    T3       TSLA     3000  None                 0
+
+---
+----
 ## SQL automation project.
 
 This is my first Python + SQL automation project.
