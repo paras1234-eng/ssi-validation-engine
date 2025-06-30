@@ -16,27 +16,10 @@ This project reads trade data and Standing Settlement Instructions (SSIs), valid
 
 ##  File Structure
 
-```
-ssi-project/
-│
-├── scripts/
-│   ├── validate_ssi.py              # Reads CSVs, merges, validates, outputs issues
-│   ├── load_to_db.py                # Loads CSVs into SQLite database
-│   ├── read_from_db.py              # Reads from DB using SQL
-│   ├── validate_from_db.py          # Full validation using SQL + Python
-│   ├── save_validated_to_db.py      # Saves validated results back to DB
-│   ├── trades.csv                   # Sample trade data
-│   ├── ssi_master.csv               # Reference SSI data
-│   └── validated_trades.csv         # Output file with results
-│
-├── ssi_data.db                      # SQLite database file (auto-created)
-├── LICENSE                          # License file
-└── README.md                        # You are here
-```
-
----
+<pre> ``` scripts/ ├── validate_ssi.py # Reads CSVs, merges, validates, outputs issues ├── load_to_db.py # Loads CSVs into SQLite database ├── read_from_db.py # Reads from DB using SQL ├── validate_from_db.py # Full validation using SQL + Python ├── save_validated_to_db.py # Saves validated results back to DB ├── query_invalid_ssis.py # SQL query for only invalid SSIs ├── trades.csv # Sample trade data ├── ssi_master.csv # Reference SSI data ├── validated_trades.csv # Output file with results ssi_data.db # SQLite database file (auto-created) LICENSE # License file README.md # You are here ``` </pre>
 
 ##  How to Run the Scripts
+
 
 You can run each file in the terminal like this:
 
@@ -46,13 +29,12 @@ python scripts/load_to_db.py
 python scripts/read_from_db.py
 python scripts/validate_from_db.py
 python scripts/save_validated_to_db.py
-```
-
-Make sure your terminal is opened at the `ssi-project` root folder.
-
+python scripts/query_invalid_ssis.py
 ---
 
 ## SQL automation project.
+
+This is my first Python + SQL automation project.
 
 It is designed to show:
 - How trade and SSI data can be read, validated, and reported
